@@ -5,7 +5,7 @@ def check (input_number, answer):
     if input_number == "exit" or input_number == "quit":
         return -1
     elif input_number == answer:
-        print('Correct!')
+        print('Good Job!')
         return 1
     else:
         print('Try again!')
